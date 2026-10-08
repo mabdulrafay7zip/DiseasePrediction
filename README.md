@@ -1,6 +1,6 @@
 # Disease Prediction from Medical Data (Diabetes)
 
-**CodeAlpha Machine Learning Internship — Task Project**
+**Machine Learning Project**
 
 ## Problem
 Early detection of diabetes allows earlier treatment and lifestyle changes.
@@ -66,7 +66,7 @@ Results are printed in the terminal and saved to `outputs/` (plots + `metrics.js
 
 ## Project Structure
 ```
-CodeAlpha_DiseasePrediction/
+DiseasePrediction/
 ├── disease_prediction.py
 ├── requirements.txt
 ├── README.md
@@ -84,4 +84,4 @@ CodeAlpha_DiseasePrediction/
 > ⚠️ Educational project only — not a medical diagnostic tool.
 
 ---
-**Author: Muhammad Abdul Rafay — CodeAlpha ML Intern**
+**Author: Muhammad Abdul Rafay — ML Intern**

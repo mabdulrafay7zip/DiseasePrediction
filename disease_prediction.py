@@ -1,6 +1,6 @@
 """
-Disease Prediction from Medical Data — CodeAlpha Machine Learning Internship
-Author: Muhammad Abdul Rafay — CodeAlpha ML Intern
+Disease Prediction from Medical Data — Machine Learning Project
+Author: Muhammad Abdul Rafay — ML Intern
 
 Predicts whether a patient has diabetes using the Pima Indians Diabetes
 dataset (medical measurements: glucose, blood pressure, BMI, age, ...).
