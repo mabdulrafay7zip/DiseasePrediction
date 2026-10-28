@@ -64,6 +64,13 @@ python disease_prediction.py
 ```
 Results are printed in the terminal and saved to `outputs/` (plots + `metrics.json`).
 
+## Interpreting the output
+
+- First run prints `Downloading Pima Indians Diabetes dataset...` and `Saved cached copy to data/pima_diabetes.csv`; later runs print `Loading cached dataset: ...` instead and work offline.
+- - The next lines report `Dataset shape: (768, 9)` and the outcome distribution (`0 = no diabetes, 1 = diabetes`).
+  - - Each model prints a `--- <Model> ---` block with its full classification report (precision, recall and F1 for both "No diabetes" and "Diabetes"); the Results table above quotes the diabetes class only.
+    - - The run ends with a `=== Summary ===` table comparing all three models, and `Plots and metrics saved in: outputs/`.
+
 ## Project Structure
 ```
 DiseasePrediction/
